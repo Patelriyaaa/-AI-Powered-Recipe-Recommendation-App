@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f7fafc;
+}
+
+.app {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* ------------------- Card (Left Box) ------------------- */
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid #ddd;
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card input,
+.card select {
+  padding: 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+}
+
+.card button {
+  background: #3182ce;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.card button:hover {
+  background: #2b6cb0;
+}
+
+/* ------------------- Recipe Display (Right Box) ------------------- */
+.recipe-display {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  width: 800px;
+  max-height: 600px;
+  overflow-y: auto;
+  overflow-x: auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #2d3748;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+}
+
+.recipe-display .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.recipe-display .header button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #718096;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: color 0.3s ease;
+}
+
+.recipe-display .header button:hover {
+  color: #2d3748;
+}
+
+.recipe-content {
+  line-height: 1.7;
+  font-size: 16px;
+  color: #2d3748;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.recipe-content h4 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #1a202c;
+}
+
+.recipe-content strong {
+  font-weight: 600;
+  color: #1a202c;
+}
+
+/* ------------------- Responsive ------------------- */
+@media (max-width: 820px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card,
+  .recipe-display {
+    width: 100%;
+  }
+}
