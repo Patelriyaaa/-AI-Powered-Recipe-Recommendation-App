@@ -1,0 +1,36 @@
+# 🍲 AI-Powered Recipe Recommendation App
+
+An intelligent and interactive recipe app that helps users discover personalized recipes based on their preferences, ingredients, and dietary goals — powered by artificial intelligence and modern web technologies.
+---
+
+## 🧠 Features
+
+- 🥦 Ingredient-based recipe search
+- 📸 AI-generated images based on recipe titles
+- 🧑‍🍳 Step-by-step cooking instructions
+- 🍽️ Dynamic filtering by diet, cuisine, and meal type
+- 💬 AI suggestions for similar recipes
+- 🔍 Auto-fill search using popular ingredients
+- 🌐 Clean, responsive UI for all devices
+
+---
+
+## 🔧 Tech Stack
+
+| Layer        | Tech Used                                       |
+|--------------|--------------------------------------------------|
+| Frontend     | HTML, CSS, JavaScript, Bootstrap                 |
+| Backend      | Node.js, Express.js                              |
+| Database     | MongoDB (optional: switchable with PostgreSQL)   |
+| APIs         | Edamam Recipe API, OpenAI / Gemini (for AI recs) |
+| Image Gen    | DALL·E / AI-powered image suggestions            |
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Patelriyaaa/-AI-Powered-Recipe-Recommendation-App.git
+   cd -AI-Powered-Recipe-Recommendation-App
+# -AI-Powered-Recipe-Recommendation-App
